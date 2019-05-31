@@ -1,28 +1,49 @@
-#print statement 
+#strings ;
+
+whatever text #will return with a syntax error
+
+'whatever text' #string
+"whatever text" #string
+"317" #string
+317 #NOT string
+
+"Mr. Brown's jacket"
+'Mr. Brown\'s jacket' #escape string
+
+
+#strings with variables ;
 
 first name = "Jack"
 last name = "Brown"
 
-print(first name) #returns with "Jack" string
+first name + last name #will return with "JackBrown"
 
-print("Jack") #returns with "Jack" string
+first name + "Brown" #returns with "JackBrown"
 
-print(first name,last name) #returns with "Jack Brown"
+first name + first name + first name #JackJackJack
+first name*3 #JackJackJack
 
-print(first name + last name) #returns with "JackBrown" without a space between first name and last name
-
-print("Jack",3) #returns "Jack 3"
-
-print("Jack",5,8.9,"Brown") #returns Jack 5 8.9 Brown
-
-print("Jack7") #returns with string "Jack7"
-
-print("Jack" +str(7)) #returns with string Jack7
-
-print(int("9") + 7) #returns with integer 16
-
-print(float(7.3) + 4) #returns with float-point number 11.3
+"Jack" + last name + "got" + "a" + "jacket" #JackBrowngotajacket
 
 
+#more about strings 
 
+name = "Jack Brown"
 
+print(name) #Jack Brown
+
+name[0] #index returns for "J" first letter from left to right
+
+name[7] #index returns for "o" 8th letter left to right
+
+name[-3] #index returns for "o" 3rd letter from right to left
+
+name[3:10] #index returns right to left between 4th to 10th letter : ck Brown 
+
+name[:7] #index start beginning left to right to 8th letter : Jack Bro
+
+name[2:] #index starts from right to left 3rd : ck Brown
+
+len(name) #returns for character count : 10
+
+len("python") #6
