@@ -22,4 +22,3 @@ print("Jack" +str(7)) #returns with string Jack7
 print(int("9") + 7) #returns with integer 16
 
 print(float(7.3) + 4) #returns with float-point number 11.3
-

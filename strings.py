@@ -1,6 +1,6 @@
 #strings ;
 
-whatever text #will return with a syntax error
+#whatever text #will return with a syntax error
 
 'whatever text' #string
 "whatever text" #string
@@ -13,17 +13,17 @@ whatever text #will return with a syntax error
 
 #strings with variables ;
 
-first name = "Jack"
-last name = "Brown"
+first_name = "Jack"
+last_name = "Brown"
 
-first name + last name #will return with "JackBrown"
+first_name + last_name #will return with "JackBrown"
 
-first name + "Brown" #returns with "JackBrown"
+first_name + "Brown" #returns with "JackBrown"
 
-first name + first name + first name #JackJackJack
-first name*3 #JackJackJack
+first_name + first_name + first_name #JackJackJack
+first_name*3 #JackJackJack
 
-"Jack" + last name + "got" + "a" + "jacket" #JackBrowngotajacket
+"Jack" + last_name + "got" + "a" + "jacket" #JackBrowngotajacket
 
 
 #more about strings 
