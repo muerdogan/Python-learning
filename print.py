@@ -1,15 +1,15 @@
 #print statement 
 
-first name = "Jack"
-last name = "Brown"
+first_name = "Jack"
+last_name = "Brown"
 
-print(first name) #returns with "Jack" string
+print(first_name) #returns with "Jack" string
 
 print("Jack") #returns with "Jack" string
 
-print(first name,last name) #returns with "Jack Brown"
+print(first_name,last_name) #returns with "Jack Brown"
 
-print(first name + last name) #returns with "JackBrown" without a space between first name and last name
+print(first_name + last_name) #returns with "JackBrown" without a space between first name and last name
 
 print("Jack",3) #returns "Jack 3"
 
