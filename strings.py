@@ -13,17 +13,17 @@
 
 #strings with variables ;
 
-first_name = "Jack"
-last_name = "Brown"
+firstName = "Jack"
+lastName = "Brown"
 
-first_name + last_name #will return with "JackBrown"
+firstName + lastName #will return with "JackBrown"
 
-first_name + "Brown" #returns with "JackBrown"
+firstName + "Brown" #returns with "JackBrown"
 
-first_name + first_name + first_name #JackJackJack
-first_name*3 #JackJackJack
+firstName + firstName + firstName #JackJackJack
+firstName*3 #JackJackJack
 
-"Jack" + last_name + "got" + "a" + "jacket" #JackBrowngotajacket
+"Jack" + lastName + "got" + "a" + "jacket" #JackBrowngotajacket
 
 
 #more about strings 
